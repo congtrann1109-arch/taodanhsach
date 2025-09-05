@@ -1,11 +1,11 @@
 import pyperclip  # pip install pyperclip
 
 step = 30
-count = 8
+count = 16
 suffixes = ["LE", "LC", "C", "RC", "RE"]
 
 while True:
-    run = input("Nhập thông tin Run (Enter để thoát): ")
+    run = input("Nhập thông tin Run: ")
     if run.strip() == "":
         break
 
